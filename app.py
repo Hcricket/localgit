@@ -24,6 +24,8 @@
 # sum = first + second
 # print("Sum:"+ str (sum))
 
-course = 'Python for Beginners'
-print (course.find('y'))
-print(course)
+# course = 'Python for Beginners'
+# print (course.find('y'))
+# print(course)
+
+print("HCRICKET learning boot-camp")
