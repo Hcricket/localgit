@@ -273,3 +273,23 @@
 # result =increment(2)
 # print(result)    
 
+login_attempt =0
+max_attempt = 3
+authenicated = False
+
+while login_attempt < max_attempt:
+ username = input("Enter your username")
+ password = input ("enter your password")
+
+if (username=="Cricket") and (password=="USA123"):
+    authenicated = True
+    break
+else:
+    print("invalid username or password")
+    login_attempt +=1
+
+
+if authenicated:
+      print("Authentication successful")
+else:
+      print("max login attempts")  
